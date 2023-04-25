@@ -63,7 +63,7 @@ app.get("/", function(req, res) {
           console.log(err);
         });
 
-        redirectTo("/");
+        res.redirect("/");
       }else{
         res.render("list", {listTitle: "Today", newListItems: response});
       }
