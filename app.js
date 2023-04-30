@@ -55,7 +55,7 @@ app.get("/", function(req, res) {
   Item.find({}).then(
     function(response){
 
-      if( !visitCount){
+      if( !visitCount && response.length === 0){
         ++visitCount;
         Item.insertMany(defaultItems).then(function(name){
           console.log(name);
