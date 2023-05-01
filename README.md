@@ -1,6 +1,6 @@
 # Todo-List-App
 
-Developed a web application utilizing MongoDB fortask management, with
+Developed a web application utilizing MongoDB for task management, with
 CRUD functionality fortasks.
 Implemented a task list display, allowing users to create,read and delete tasks.
 Implemented category functionality and EJS templating forimproved
